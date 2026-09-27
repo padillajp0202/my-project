@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Store</title>
+
+    <!--External CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Internal CSS-->
+    <style>
+        .internal-css {
+            background: white;
+            border-left: 10px solid #46B47F;
+            padding: 12px 16px;
+            margin: 20px 0;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header class="top-header">
+        <!--Create area for logo-->
+        <div class="brand">
+            <span class="brand-mark"> 
+                <img src="media/logo.avif" class="logo">
+            </span>
+            <h1>Shoes Store</h1>
+        </div>
+        <!--Navigation Bar-->
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#collections">Collections</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#running">Running</a></li>
+                        <li><a href="#casual">Casual</a></li>
+                        <li><a href="#basketball">Basketball</a></li>
+                    </ul>
+                </li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+        </nav>
+    </header>
+    <main id="home" class="container">
+        <section class="hero">
+            <div class="hero-text">
+                <p class="eyebrow"> Premium Footer Presentation</p>
+                <h2>step forward in style and comfort</h2>
+                <p>
+                    Explore our latest show showcase featuring clean layout
+                    product highlight, and modern css styling technique,
+                </p>
+                <a class="btn" href="#gallery"> View collections</a>
+                <p class="Hero-note">
+                    this uses <strong>internet css</strong> from the 
+                    &nbsp; &lt;style&ltblock.
+                </p>
+            </div>
+
+            <div class="hero-image">
+                <img 
+                    src="media/1.webp" 
+                    alt="New modern shoes style"
+                    class="shoe-img">
+            </div>
+        </section>
+
+        <section class="internal-css">
+            <h2>Internal CSS Demonstration</h2>
+            <p>The box is styled in the HTML file using internal CSS, 
+                while the rest of the page is styled using the external 
+                stylesheet</p>
+        </section>
+
+        <section id="features" class="content-grid">
+            <article class="card">
+                <h3>Product highlights</h3>
+                <ul class="featured-list">
+                    <li>Lightweight Upper Material</li>
+                    <li>Breathable Mesh Design</li>
+                    <li>Cushioned Sole Support</li>
+                    <li>Available in Multiple Colors</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h2>Size Guide</h2>
+                <table class="size-table">
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Lenght(cm)</th>
+                            <th>Fit</th>
+                        </tr>
+                        <tbody>
+                        <tr>
+                            <td>7</td>
+                            <td>25.0</td>
+                            <td>Snug</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>26.0</td>
+                            <td>Regular</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>27.0</td>
+                            <td>Roomy</td>
+                        </tr>
+                        </tbody>
+                    </thead>
+                </table>
+            </article>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <h2>The Image Gallery</h2>
+            <div class="gallery">
+                <img src="media/2.jpg">
+                <img src="media/running-shoes.jpg">
+                <img src="media/4.jpg">
+            </div>
+        </section>
+        <section class="info-columns">
+            <div class="card" id="running">
+            <h2>Why Choose this Shoe</h2>
+            <ol>
+                <li>Comfortable for Daily Wear</li>
+                <li>Durable sole for long use</li>
+                <li>Modern  for Casual Outfits</li>
+            </ol>
+            </div>
+
+            <div class="card" id="basketball">
+                <h2>Purchase Link</h2>
+                <p>Visit Our 
+                    <a href="#" class="text-link">
+                        Official Store
+                    </a>
+                    or check our
+                    <a href="#" class="text-link">
+                        New Arrivals
+                    </a>
+                </p>
+                <p>
+                    <i class="shoe-icon"></i>
+                    Design for Style and Performance.
+                </p>
+            </div>
+        </section>
+
+        <section id="collections" class="card">
+            <h2>Inline CSS Example</h2>
+            <p>
+                <span style="color: red; font-weight: bolder;">
+                    This Sentence uses inline CSS
+                </span>
+                to demonstrate direct styling inside the HTML Body.
+            </p>
+        </section>
+
+    <section id="gallery" class="flowers-collections">
+        <h2>Flowers</h2>
+        <div class="fgallery">
+
+            <figure>
+            <h2>Rose</h2>
+            <img src="media/flower1.jpg" >
+            <p>Roses are most often linked with love, beauty, and affection. Red roses 
+            are closely tied to romance, while white roses
+            are often linked with purity.</p>
+            </figure>
+
+            <figure>
+            <h2>Tulip</h2>
+            <img src="media/flower2.jpg" >
+            <p>Tulips are often connected with love, warmth, and cheerful energy, which 
+            makes them perfect for spring bouquets,
+            birthday gifts, and light modern arrangements.</p>
+            </figure>
+
+            <figure>
+            <h2>Sunflower</h2>
+            <img src="media/flower3.jpg" >
+            <p>Sunflowers are often linked with happiness, loyalty, and positivity, 
+            so they are a favorite for cheerful gifts, summer
+            bouquets, and sunny garden borders.</p>
+            </figure>
+
+            <figure>
+            <h2>Lily</h2>
+            <img src="media/flower4.jpg" >
+            <p>Lilies are often linked with purity, renewal, and calm beauty. 
+            White lilies are especially common in sympathy flowers and formal arrangements.</p>
+            </figure>
+
+            <figure>
+            <h2>Orchid</h2>
+            <img src="media/flower5.jpg" >
+            <p>Orchids are commonly linked with elegance, strength, beauty, and luxury. 
+            That is why they are such a popular choice for
+            premium gifts, hotel spaces, offices, and modern homes.</p>
+            </figure>
+
+            <figure>
+            <h2>Gerbera Daisy</h2> 
+            <img src="media/flower6.jpg" >
+            <p>They are often linked with joy, innocence, and cheerful energy. 
+            Gerberas feel less formal than roses or orchids, which
+            makes them easy to give and easy to enjoy.</p>
+            </figure>
+            
+            <figure>
+            <h2>Carnation</h2>
+            <img src="media/flower7.jpg" >
+            <p>Carnations are often associated with love, admiration, and 
+            remembrance, though meanings can shift depending on color.</p>
+            </figure>
+
+            <figure>
+            <h2>Hydrangea</h2>
+            <img src="media/flower8.jpg" >
+            <p>Hydrangeas are known for their full, rounded flower heads and soft, lush appearance.</p>
+            </figure>
+        </div>
+
+    </section>
+
+    </main>
+    <footer class="footer">
+    <p>&copy; Shoes Store 2026</p>
+        </footer>    
+</body>
+</html>
